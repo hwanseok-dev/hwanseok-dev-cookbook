@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="book.jpabook.relationship" />
+        <module name="java.jlex" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="book.jpabook.relationship" target="1.8" />
       <module name="hwanseok-dev-cookbook" target="8" />
+      <module name="java.jlex" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
