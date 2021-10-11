@@ -80,6 +80,8 @@ ListNode* insert_first(LinkedList* list, element data){
     ListNode *selectNode = list->head;
     if(list->head == NULL){
         list->head = newNode;
+        newNode->prev = newNode;
+        newNode->next = newNode;
     }else{
         // list->head : 첫 번째 노드
         // list->head->prev : 마지막 노드
