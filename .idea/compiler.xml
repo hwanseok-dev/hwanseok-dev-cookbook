@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="book.jpabook.relationship" />
         <module name="java.jlex" />
+        <module name="java.ds.linkedlist" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="book.jpabook.relationship" target="1.8" />
       <module name="hwanseok-dev-cookbook" target="8" />
+      <module name="java.ds.linkedlist" target="8" />
       <module name="java.jlex" target="8" />
     </bytecodeTargetLevel>
   </component>
