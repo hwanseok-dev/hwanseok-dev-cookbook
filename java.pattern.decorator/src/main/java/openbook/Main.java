@@ -1,4 +1,4 @@
-import javax.swing.plaf.synth.SynthTextAreaUI;
+package openbook;
 
 /**
  * @author hwanseok on 2021/10/19

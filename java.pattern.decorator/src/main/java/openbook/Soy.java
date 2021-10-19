@@ -1,3 +1,5 @@
+package openbook;
+
 /**
  * @author hwanseok on 2021/10/19
  */
@@ -16,6 +18,6 @@ public class Soy extends CondimentDecorator{
 
     @Override
     public String getDescription() {
-        return "Soy" + beverage.getDescription();
+        return "openbook.Soy" + beverage.getDescription();
     }
 }

@@ -12,6 +12,9 @@
         <module>book.jpabook.relationship</module>
         <module>java.jlex</module>
         <module>java.ds.linkedlist</module>
+        <module>java.compile</module>
+        <module>java.pattern.strategy</module>
+        <module>java.pattern.decorator</module>
     </modules>
 
     <properties>

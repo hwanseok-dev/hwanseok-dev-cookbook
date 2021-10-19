@@ -7,15 +7,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="book.jpabook.relationship" />
-        <module name="java.jlex" />
         <module name="java.ds.linkedlist" />
+        <module name="java.pattern.decorator" />
+        <module name="java.compile" />
+        <module name="java.pattern.strategy" />
+        <module name="java.jlex" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="book.jpabook.relationship" target="1.8" />
       <module name="hwanseok-dev-cookbook" target="8" />
+      <module name="java.compile" target="8" />
       <module name="java.ds.linkedlist" target="8" />
       <module name="java.jlex" target="8" />
+      <module name="java.pattern.decorator" target="8" />
+      <module name="java.pattern.strategy" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

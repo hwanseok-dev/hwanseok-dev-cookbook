@@ -1,3 +1,5 @@
+package openbook;
+
 /**
  * @author hwanseok on 2021/10/19
  */
@@ -16,6 +18,6 @@ public class Mocha extends CondimentDecorator{
 
     @Override
     public String getDescription() {
-        return "Mocha" + beverage.getDescription();
+        return "openbook.Mocha" + beverage.getDescription();
     }
 }
